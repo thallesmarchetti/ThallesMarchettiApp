@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ThallesMarchetti.Views"
+             ForegroundColor="#FFF"
+             BackgroundColor="#262626"
+             x:Class="ThallesMarchetti.AppShell">
+   <!-- Menu hamburguer -->
+   <!--<FlyoutItem>
+        <Tab Title="Home" Icon="Logo.png">
+            <ShellContent ContentTemplate="{DataTemplate views:HomePage}" />
+        </Tab>
+        <Tab Title="Profile" Icon="profile.png">
+            <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
+        </Tab>
+        <Tab Title="Services" Icon="briefcase.png">
+            <ShellContent ContentTemplate="{DataTemplate views:ServicesPage}" />
+        </Tab>
+   </FlyoutItem>-->
+
+    <TabBar>
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent>
+                <views:HomePage />
+            </ShellContent>
+        </Tab>
+
+        <Tab Title="Profile" Icon="profile.png">
+            <ShellContent>
+                <views:ProfilePage />
+            </ShellContent>
+        </Tab>
+
+        <Tab Title="Services" Icon="briefcase.png">
+            <ShellContent>
+                <views:ServicesPage />
+            </ShellContent>
+        </Tab>
+        
+    </TabBar>
+</Shell>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#262626"
+             Title="Perfil"
+             x:Class="ThallesMarchetti.Views.ProfilePage">
+    <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image Source="ProfilleImage.png" Aspect="Fill" HeightRequest="270" VerticalOptions="StartAndExpand"/>
+            <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="20,20,20,0" Padding="18" HeightRequest="220" VerticalOptions="StartAndExpand">
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        
+                    </Grid.RowDefinitions>
+                    <StackLayout Orientation="Vertical" Spacing="6" HorizontalOptions="CenterAndExpand">
+                        <Label Text="Thalles Marchetti" FontSize="20" FontAttributes="Bold" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+
+                        <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand">
+                            <Image Source="mail.png" WidthRequest="14" HeightRequest="15" VerticalOptions="Center"/>
+                            <Label Text="linkmarchetti@gmail.com" FontSize="14" TextColor="#2C3E50" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                            
+                        <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand">
+                            <Image Source="location.png" WidthRequest="10" HeightRequest="15" VerticalOptions="Center"/>
+                            <Label Text="Rio de Janeiro, Brasil" TextColor="#34495E" FontSize="14" FontAttributes="Bold" VerticalOptions="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <Grid Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>    
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
+                            <Image Source="photo.png" WidthRequest="45" HeightRequest="45" HorizontalOptions="Center"/>
+                            
+                        </StackLayout>
+                        
+                    </Grid>
+                </Grid>
+            </Frame>
+            <Frame Grid.Row="2" HasShadow="True" HeightRequest="200" CornerRadius="10" Margin="20" Padding="18" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid RowSpacing="20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Serviços" FontSize="20" TextColor="#2C3E50" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>                   
+                    <Label Grid.Row="1" Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. In elementis mé pra quem é amistosis quis leo. Sapien in monti palavris qui num significa nadis i pareci latim. Atirei o pau no gatis, per gatis num morreus." FontSize="14" TextColor="#707070"/>
+                </Grid>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>
