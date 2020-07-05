@@ -4,7 +4,7 @@
 
 Aplicativo voltado para os clientes solicitar serviços ofertados, acompanhamento e verificar o histórico de tudo o que foi feito.
 
-<img src="https://thalles-marchetti.s3-sa-east-1.amazonaws.com/Website/logo/logo.png" width="200px" height="200px" />
+<img src="https://app.s3-sa-east-1.amazonaws.com/logo.png" width="200px" height="200px" />
 
 ## Funcionalidades
 
@@ -18,7 +18,7 @@ Aplicativo voltado para os clientes solicitar serviços ofertados, acompanhament
 
 ## Diagrama de classes
 
-<img src="https://thalles-marchetti.s3-sa-east-1.amazonaws.com/app/diagrama.PNG" />
+<img src="https://app.s3-sa-east-1.amazonaws.com/diagrama.png" />
 
 ## Documentos
 
