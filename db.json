@@ -1,0 +1,8 @@
+{
+    "thallesApp" : [
+      {
+        "id": ["Desktop", "Notebook"],
+        "problem": ["Sistemas", "Programas", "Office", "Wifi"]
+      }
+    ]
+}
